@@ -1,0 +1,48 @@
+*,
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	scroll-snap-type: y mandatory;
+}
+
+#app {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	scroll-snap-align: start;
+	scroll-snap-stop: normal;
+}
+
+section h1 {
+	margin-bottom: 3rem;
+	width: 60%;
+}
+
+section p {
+	margin-bottom: 3rem;
+	width: 60%;
+}
+
+.sec1 {
+	background-color: hotpink;
+}
+
+.sec2 {
+	background-color: blue;
+}
+
+.sec3 {
+	background-color: red;
+}
